@@ -136,7 +136,7 @@ else
     <title>img2rubiks</title>
 	<style>
 .col {
-  margin: 2px;
+  margin: 1px;
   min-width: 16px;
   min-height: 16px;
   float: left;
@@ -188,7 +188,7 @@ if (!is_null($rubiks_json))
 }
 ?></textarea></div>
       <div>image file: <input type="file" name="file_image" /></div>
-      <div>restraint in rubiks cubes: <input type="text" name="restraint" value="30" placeholder="30" /><select name="direction"><option>wide</option><option>high</option></select></div>
+      <div>restraint in rubiks cubes: <input type="text" name="restraint" value="20" placeholder="20" /><select name="direction"><option>wide</option><option>high</option></select></div>
       <div><input type="submit" name="submit-btm" value="Submit" /></div>
       </form>
     </div>
